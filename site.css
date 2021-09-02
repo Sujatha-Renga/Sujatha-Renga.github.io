@@ -1,0 +1,164 @@
+/* Header Section*/
+
+
+.mydesc{
+    margin-left: 50px;
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+}
+h3,h2{
+    color: #91070d;
+    font-size: xx-large;
+}
+
+header{
+    display:flex;
+    background-color: #352d39;
+    }
+   
+
+#menu li
+{
+    display:inline;
+    padding: 16px;
+    background-color: rgb(42, 40, 40);
+}
+#menu li a
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+#menu li.active{
+    padding: 16px;
+   /* background-color: rgb(230, 120, 129);*/
+   background-color: #aa4264d8;
+
+}
+#menu{
+    float:left;   
+    font-family: 'Karla', sans-serif; 
+}
+
+#headshot{   
+    max-width: 200px;
+    border-radius: 20px;    
+}
+
+#homebtnabout,#homebtnresume{   
+    
+    float:center;   
+    
+}
+.headshotcontainer{
+    text-align: center;
+}
+
+.homecontainer{
+    margin-top: 50px;
+}
+#homeMenu{
+    text-align: center;
+}
+
+
+
+#homeMenu li{
+    display: inline;
+    padding: 15px;
+    background-color:#aa4264d8; 
+    border-radius: 3px;       
+}
+#homeMenu li a
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+#abtmenu,h2{
+    text-align: center;
+    
+}
+
+#abtmenu li{
+    display: inline;
+   
+}
+#abtmenu li a
+{
+    color:#ef6573;
+    text-decoration: none;
+}
+
+.abtedu, .abtskill, .abtexp{
+    padding: 8px;
+    border: 3px solid #ef6573;
+    color: #ef6573;
+    background-color: white;
+    
+}
+
+
+/*@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+ @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}*/
+
+.hometitle{
+    color:#aa4264d8;    
+    font-family: 'Rampart One', cursive;   
+    font-size: 75; 
+    text-align: center;    
+}
+
+/* Main Section
+main{
+    /*background-color: rgb(197, 197, 197);
+    padding: 4px;
+    color: #202020;
+    grid-area: main;
+}*/
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/img/star.jpg");
+   
+}
+
+
+aside{
+    
+}
+
+/*
+
+footer{
+    text-align: center;
+    background-color:#202020;
+    color: lightblue;
+    padding: 2px;
+    grid-area: footer;
+}*/
+.skilltitle, .edutitle{
+    font-weight:bold ;
+    font-size: x-large;
+}
+/*
+.abtdetailsheader{
+    position: fixed;
+}
+
+*/
+
+/*
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "
+     aside"
+    "footer footer";
+}
+/*
+header #headshot, header #menu,header #siteName{
+    display: inline;
+    vertical-align: middle;
+}*/
