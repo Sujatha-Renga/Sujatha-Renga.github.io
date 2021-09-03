@@ -29,8 +29,7 @@ header{
 }
 
 #menu li.active{
-    padding: 16px;
-   /* background-color: rgb(230, 120, 129);*/
+    padding: 16px;   
    background-color: #aa4264d8;
 
 }
